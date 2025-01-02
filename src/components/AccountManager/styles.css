@@ -1,0 +1,88 @@
+/* Container styles */
+.account-manager-container {
+    font-family: Arial, sans-serif;
+    background-color: rgba(247, 248, 250, 1);
+    border-radius: 8px;
+    /* padding: 16px; */
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+  }
+  
+  /* Tabs styles */
+  .tabs {
+    display: flex;
+    /* border-bottom: 1px solid #e5e7eb; */
+    margin-bottom: 30px;
+  }
+  
+  .tab {
+    padding: 12px 19px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #6b7280;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 8px 8px 8px 0;
+  }
+  
+  .tab.active {
+    background-color: rgba(245, 137, 45, 1);
+    color: white;
+  }
+  
+  /* Content styles */
+  .content {
+    padding: 28px;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    margin-bottom: 2.5rem;
+    width: 65%;
+  }
+  
+  /* Card styles */
+  .card {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #111827;
+  }
+  
+  .card-details p {
+    font-size: 14px;
+    /* color: #6b7280; */
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 8px;
+    font-size: 16px;
+    color: #111827;
+  }
+  
+  /* Example Section styles */
+  .example-section {
+    text-align: center;
+  }
+  
+  .example-section h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 8px;
+  }
+  
+  .example-section p {
+    font-size: 14px;
+    color: #6b7280;
+  }
